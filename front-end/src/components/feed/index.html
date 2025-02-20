@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Open Sans", sans-serif
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="nav w3-bar w3-large ">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-black w3-large w3-theme-d2"
+                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="#" class=" w3-bar-item w3-button w3-padding-large w3-hover-black"><img src="logo(1).png" alt="Logo"
+                    class="logo" /></a>
+            <a href="#" class=" w3-button w3-hide-small w3-padding-large w3-hover-black" title="Account Settings"><svg
+                    width="25" height="25" class="userIcon" fill="#008000" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3.75a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5Z"></path>
+                    <path
+                        d="M8 13.25A3.75 3.75 0 0 0 4.25 17v1.188c0 .754.546 1.396 1.29 1.517 4.278.699 8.642.699 12.92 0a1.537 1.537 0 0 0 1.29-1.517V17A3.75 3.75 0 0 0 16 13.25h-.34c-.185 0-.369.03-.544.086l-.866.283a7.251 7.251 0 0 1-4.5 0l-.866-.283a1.752 1.752 0 0 0-.543-.086H8Z">
+                    </path>
+                </svg>
+                <path fill-rule="evenodd"
+                    d="M12 10.8a3.6 3.6 0 1 0 0-7.2 3.6 3.6 0 0 0 0 7.2ZM3.6 21.6a8.4 8.4 0 0 1 16.8 0H3.6Z"
+                    clip-rule="evenodd"></path>
+                </svg>
+            </a>
+            <a href="#" class=" w3-button w3-hide-small w3-padding-large w3-hover-black" title="Messages"><svg
+                    width="25" height="25" class="userIcon" fill="#008000" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.29 4.908a54.397 54.397 0 0 1 9.42 0l1.511.13a2.888 2.888 0 0 1 2.313 1.546.235.235 0 0 1-.091.307l-6.266 3.88a4.25 4.25 0 0 1-4.4.045L3.47 7.088a.236.236 0 0 1-.103-.293A2.889 2.889 0 0 1 5.78 5.039l1.51-.131Z">
+                    </path>
+                    <path
+                        d="M3.362 8.767a.248.248 0 0 0-.373.187 30.351 30.351 0 0 0 .184 7.56A2.888 2.888 0 0 0 5.78 18.96l1.51.131c3.135.273 6.287.273 9.422 0l1.51-.13a2.888 2.888 0 0 0 2.606-2.449 30.35 30.35 0 0 0 .161-7.779.247.247 0 0 0-.377-.182l-5.645 3.494a5.75 5.75 0 0 1-5.951.061l-5.653-3.34Z">
+                    </path>
+                </svg></a>
+        </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">My Profile</a>
+    </div>
+
+    <!-- Page Container -->
+    <div class="w3-container w3-content"
+        style="max-width:1400px;margin-top:80px;display: flex; justify-content: center; align-items: center;">
+
+        <!-- Middle Column -->
+        <div class="w3-col m7">
+
+            <div class="w3-row-padding">
+                <div class="w3-col m12">
+                    <div class="w3-card w3-round w3-white">
+                        <div class="w3-container w3-padding">
+                            <h6 class="w3-opacity">Social Media template by w3.css</h6>
+                            <p contenteditable="true" class="w3-border w3-padding">Status: Feeling Blue</p>
+                            <button type="button" class="w3-button w3-theme"><i class="fa fa-pencil"></i>  Post</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-container w3-card w3-gray w3-round w3-margin"><br>
+                <img src="/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                    style="width:60px">
+                <span class="w3-right w3-opacity">1 min</span>
+                <h4>John Doe</h4><br>
+                <hr class="w3-clear">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <div class="w3-row-padding" style="margin:0 -16px">
+                    <div class="w3-half">
+                        <img src="/w3images/lights.jpg" style="width:100%" alt="Northern Lights"
+                            class="w3-margin-bottom">
+                    </div>
+                    <div class="w3-half">
+                        <img src="/w3images/nature.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
+                    </div>
+                </div>
+                <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>
+                     Like</button>
+                <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>
+                     Comment</button>
+            </div>
+
+            <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+                <img src="/w3images/avatar5.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                    style="width:60px">
+                <span class="w3-right w3-opacity">16 min</span>
+                <h4>Jane Doe</h4><br>
+                <hr class="w3-clear">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>
+                     Like</button>
+                <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>
+                     Comment</button>
+            </div>
+
+            <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+                <img src="/w3images/avatar6.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                    style="width:60px">
+                <span class="w3-right w3-opacity">32 min</span>
+                <h4>Angie Jane</h4><br>
+                <hr class="w3-clear">
+                <p>Have you seen this?</p>
+                <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>
+                     Like</button>
+                <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>
+                     Comment</button>
+            </div>
+
+            <!-- End Middle Column -->
+        </div>
+
+        <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+    </div>
+    <br>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-theme-d3 w3-padding-16">
+        <h5>Footer</h5>
+    </footer>
+
+    <footer class="w3-container w3-theme-d5">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
+
+    <script>
+
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body {
+    background-color: #181818;
+}
+
+.nav {
+    background-color: #0f0f0f;
+    display: flex; /* Torna a navbar um contêiner flexível */
+    justify-content: flex-start; /* Garante que os itens da navbar fiquem alinhados à esquerda */
+}
+
+
+.logo {
+    width: 30px;
+    /* Defina a largura desejada para o logo */
+    height: auto;
+    /* Manter a proporção correta da imagem */
+    padding: 5px;
+    margin-bottom: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    z-index: 100;
+}
