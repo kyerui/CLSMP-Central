@@ -1,0 +1,125 @@
+body {
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .w3-top .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .w3-top .nav .w3-bar-item {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: none;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    z-index: 100;
+  }
+  
+  .art {
+    background-color: #0f0f0f;
+    color: #9e9ea7;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+  }
+  
+  .value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #9e9ea7;
+    display: flex;
+    position: relative;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px 0 10px;
+  }
+  
+  .value .left {
+    margin: 0 10px 0 10px;
+  }
+  
+  .value:not(:active):hover {
+    background-color: #21262c;
+  }
+  
+  .value:active {
+    background-color: #1a1f24;
+  }
+  
+  .value svg {
+    width: 15px;
+  }
+  
+
+.edit{
+    margin-left: 10px;
+    background: transparent;
+    border: 0;
+}
+
+
+
+/* footer */
+.footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .notice{
+    display: flexbox;
+    top: 100%;
+    text-align: center; /* Centraliza o texto */
+    text-justify: distribute; /* Justifica o texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+  }
+  
