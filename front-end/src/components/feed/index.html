@@ -231,7 +231,7 @@
     <br>
     <footer class="footer">
 
-        <p>&copy; 2025 - Direitos de CSLMP</p>
+        <p>&copy; <span class="numero-aleatorio" id="numero">num</span> - Direitos de SCLMP</p>
         <img class="logo" src="logo.png" alt="Logo">
         <div class="notice">
         <p style="font-size: 20px;">GENERAL NOTICE:</p>
@@ -259,6 +259,12 @@
                 x.className = x.className.replace(" w3-show", "");
             }
         }
+        function gerarNumeroAleatorio() {
+            return Math.floor(0 + Math.random() * 9000); // Gera um número entre 1000 e 9999
+        }
+
+        // Exibe o número aleatório ao carregar a página
+        document.getElementById('numero').textContent = gerarNumeroAleatorio();
     </script>
 
 
