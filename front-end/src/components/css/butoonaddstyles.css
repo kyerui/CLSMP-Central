@@ -1,0 +1,44 @@
+ 
+.buttonadd {
+    position: fixed;
+    color: #c4c4c4;
+    background-color: #325e39;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    right: 3%;
+    top: 6%;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    margin-top: 1%;
+  }
+  
+  .buttonadd:hover {
+    background-color: rgb(19, 31, 16);
+  }
+  
+  .buttonadd svg {
+    display: inline;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin-right: 0.75rem;
+    color: #c4c4c4;
+  }
+  
+  .buttonadd:focus svg {
+    animation: spin_357 0.5s linear;
+  }
+  
+  @keyframes spin_357 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
