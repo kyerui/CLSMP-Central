@@ -1,0 +1,141 @@
+body {
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.nav {
+    background-color: #0f0f0f;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.value {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    color: #9e9ea7;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.value:hover {
+    background-color: #21262c;
+}
+
+.value:active {
+    background-color: #1a1f24;
+}
+
+.value svg {
+    width: 15px;
+}
+
+.article-container {
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 80px; /* Espaço para a navbar */
+    margin-bottom: 2%;
+}
+
+.article-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #9e9ea7;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #21262c;
+    color: #9e9ea7;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 200px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #1a1f24;
+    color: #9e9ea7;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #14161a;
+}
+
+.footer {
+    background-color: #0f0f0f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.notice {
+    text-align: center;
+    font-weight: bold;
+}
+
+.logo {
+    display: none;
+    width: 200px;
+    height: auto;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+    z-index: 100;
+  }
